@@ -38,6 +38,11 @@ a {
   color: white;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 footer {
   padding: 60px 220px;
 }
@@ -54,11 +59,12 @@ footer {
 }
 
 .section {
-  padding: 180px 0px 220px 220px;
+  padding: 180px 220px 180px 220px;
 }
 
 .section-wide {
-  padding: 0 120px;
+  padding: 0 120px 180px 120px;
+  margin: auto 0;
 }
 
 .caption {
@@ -87,7 +93,7 @@ footer {
 }
 
 .email :hover {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 .footernote {
@@ -131,21 +137,49 @@ footer {
 }
 
 .btn-branding-outline :hover {
-  background-color: white;
-  color: black;
+  background-color: white !important;
+  color: black !important;
 }
 
 .project-link {
   color: var(--secondary-color);
 }
 
+.fab {
+  padding: 0 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.description-wrapper {
+  padding-top: 40px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
+    line-height: 50px;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 24px;
+  }
+
+  footer {
+    padding: 40px 20px;
+  }
+
+  .highlight-pink {
+    font-size: 40px;
+  }
+  .highlight-blue {
+    font-size: 40px;
+  }
+
+  .email {
+    font-size: 28px;
   }
 
   .hero {
@@ -154,5 +188,10 @@ footer {
 
   .section {
     padding: 100px 0px 20px 20px;
+  }
+
+  .section-wide {
+    padding: 0 20px 100px 20px;
+    margin: auto 0;
   }
 }
