@@ -3,7 +3,7 @@
   --secondary-color: #a1d6f7;
   --tertiary-color: #facdd6;
   --brand-font: "Space Grotesk", sans-serif;
-  --button-padding: 20px 30px;
+  --button-padding: 18px 30px;
 }
 
 body {
@@ -29,12 +29,17 @@ h2 {
 p {
   font-weight: 400;
   font-size: 18px;
+  line-height: 28px;
   color: white;
-  opacity: 80%;
+  opacity: 70%;
 }
 
 a {
   color: white;
+}
+
+footer {
+  padding: 60px 220px;
 }
 
 .hero-section {
@@ -45,13 +50,22 @@ a {
 }
 
 .hero {
-  padding: 160px 140px;
+  padding: 180px 220px;
+}
+
+.section {
+  padding: 180px 0px 220px 220px;
+}
+
+.section-wide {
+  padding: 0 120px;
 }
 
 .caption {
   font-size: 22px;
   color: var(--primary-color);
   font-weight: 400;
+  opacity: 100%;
 }
 
 .highlight-pink {
@@ -83,25 +97,62 @@ a {
   opacity: 70%;
 }
 
-.btn {
+.btn-branding {
+  text-decoration: none;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: -0.5px;
   padding: var(--button-padding);
   border-radius: 4px;
-  border: 1px;
-}
-
-.btn-primary {
+  border: 1px solid white;
   background-color: white;
   color: black;
-  border-color: white;
 }
 
-.btn-secondary {
-  background-color: black;
+.btn-branding :hover {
+  background-color: var(--primary-color);
+  color: black;
+  border-color: var(--primary-color);
+}
+
+.btn-branding-outline {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  padding: var(--button-padding);
+  border-radius: 4px;
+  border: 1px solid white;
+  margin-left: 16px;
+  background-color: transparent;
   color: white;
-  border-color: white;
-  border: 1px;
+}
+
+.btn-branding-outline :hover {
+  background-color: white;
+  color: black;
+}
+
+.project-link {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .hero {
+    padding: 100px 20px;
+  }
+
+  .section {
+    padding: 100px 0px 20px 20px;
+  }
 }
