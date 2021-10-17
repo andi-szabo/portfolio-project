@@ -1,15 +1,107 @@
+:root {
+  --primary-color: #ffd014;
+  --secondary-color: #a1d6f7;
+  --tertiary-color: #facdd6;
+  --brand-font: "Space Grotesk", sans-serif;
+  --button-padding: 20px 30px;
+}
+
 body {
   background-color: black;
+  font-family: var(--brand-font);
 }
 
 h1,
-h2,
-h3 {
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 600;
+h2 {
+  font-weight: 500;
+  color: white;
+}
+
+h1 {
+  font-size: 78px;
+  line-height: 88px;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 p {
-  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  opacity: 80%;
+}
+
+a {
+  color: white;
+}
+
+.hero-section {
+  background-image: url("elements@2x.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
+}
+
+.hero {
+  padding: 160px 140px;
+}
+
+.caption {
+  font-size: 22px;
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+.highlight-pink {
   font-weight: 500;
+  font-size: 78px;
+  color: var(--tertiary-color);
+}
+
+.highlight-blue {
+  font-weight: 500;
+  font-size: 78px;
+  color: var(--secondary-color);
+}
+
+.email {
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+}
+
+.email :hover {
+  color: var(--primary-color);
+}
+
+.footernote {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  opacity: 70%;
+}
+
+.btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  padding: var(--button-padding);
+  border-radius: 4px;
+  border: 1px;
+}
+
+.btn-primary {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+
+.btn-secondary {
+  background-color: black;
+  color: white;
+  border-color: white;
+  border: 1px;
 }

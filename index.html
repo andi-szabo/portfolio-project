@@ -30,17 +30,25 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <p>Hi there</p>
-      <h1>
-        Andrea Szabo is a <span class="">digital designer</span> and
-        <span class="">front-end developer</span> based in Antwerp, Belgium.
-      </h1>
-      <a href="/#about" class="btn btn-primary">More about Andrea</a>
-      <a href="/#projects" class="btn btn-secondary">Check out her projects</a>
-      <img src="/images/elements@2x.png" />
+    <div class="hero-section">
+      <div class="hero">
+        <p class="caption">Hi there</p>
+        <h1 class="mb-5">
+          Andrea Szabo is a
+          <span class="highlight-pink">digital designer</span> and
+          <span class="highlight-blue">front-end developer</span> based in
+          Antwerp, Belgium.
+        </h1>
+        <div>
+          <a href="/#about" class="btn btn-primary">More about Andrea</a>
+          <a href="/#projects" class="btn btn-secondary"
+            >Check out her projects</a
+          >
+        </div>
+      </div>
     </div>
-    <div>
+
+    <div id="projects">
       <h2>Vanilla Weather App</h2>
       <p>
         Weather Application coded with Vanilla JavaScript <br />
@@ -49,25 +57,27 @@
       <a href="#" class="">See project</a>
       <img src="/images/vanilla-weather-app@2x.png" />
     </div>
-    <div>
+    <div id="about">
       <img src="/images/image-of-andrea@2x.png" />
-      <p>About Andrea</p>
+      <p class="caption">About Andrea</p>
       <h2>
         Her goal is to design and develop websites that drive traffic,
         engagement, and conversion by researching into a clear set of action
         items to meet the goals of industry-leading brands.
       </h2>
     </div>
-    <div>
-      <p>Let’s connect</p>
-      <a href="mailto:szaboande93@gmail.com">szaboande93@gmail.com</a>
+    <div id="contact">
+      <p class="caption">Let’s connect</p>
+      <a href="mailto:szaboande93@gmail.com" class="email"
+        >szaboande93@gmail.com</a
+      >
     </div>
     <footer>
       <i class="fab fa-instagram"></i>
       <i class="fab fa-linkedin-in"></i>
       <i class="fab fa-github-alt"></i>
-      <p>This website is made with love. ♥️</p>
-      <p>
+      <p class="footernote">This website is made with love. ♥️</p>
+      <p class="footernote">
         Coded and designed by Andrea Szabo, open sourced on
         <a href="https://github.com/andi-szabo">Github</a>.
       </p>
