@@ -38,6 +38,10 @@ a {
   color: white;
 }
 
+a:hover {
+  color: var(--primary-color);
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -48,7 +52,7 @@ footer {
 }
 
 .hero-section {
-  background-image: url("elements@2x.png");
+  background-image: url("/images/elements@2x.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom right;
@@ -56,10 +60,15 @@ footer {
 
 .hero {
   padding: 180px 220px;
+  height: 100vh;
 }
 
 .section {
   padding: 180px 220px 180px 220px;
+}
+
+.mb-80 {
+  padding: 180px 220px 80px 220px;
 }
 
 .section-wide {
@@ -93,7 +102,7 @@ footer {
 }
 
 .email:hover {
-  color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
 }
 
 .footernote {
