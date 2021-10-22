@@ -92,7 +92,7 @@ footer {
   text-decoration: none;
 }
 
-.email :hover {
+.email:hover {
   color: var(--primary-color) !important;
 }
 
@@ -116,7 +116,7 @@ footer {
   color: black;
 }
 
-.btn-branding :hover {
+.btn-branding:hover {
   background-color: var(--primary-color);
   color: black;
   border-color: var(--primary-color);
@@ -136,7 +136,7 @@ footer {
   color: white;
 }
 
-.btn-branding-outline :hover {
+.btn-branding-outline:hover {
   background-color: white !important;
   color: black !important;
 }
