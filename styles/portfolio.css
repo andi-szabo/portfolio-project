@@ -166,6 +166,14 @@ footer {
   padding-top: 40px;
 }
 
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
@@ -193,6 +201,10 @@ footer {
 
   .hero {
     padding: 100px 20px;
+  }
+
+  .hero-section {
+    size: 300px 210px;
   }
 
   .section {
